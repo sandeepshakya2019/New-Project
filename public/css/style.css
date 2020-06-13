@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: none;
+  box-sizing: border-box;
+}
+.container-fluid{
+	margin:0;
+	padding:0;
+}
+.upper{
+	padding: 0;
+	padding-left: 150px;
+	background-color: rgb(0, 48, 99);
+	/* Here we can use the gradients to show the color like yopur's website*/
+	background-image: linear-gradient(#1e3c72,#2a5298);
+}
+{
+	padding-left: 100px;
+}.links{
+	margin-left: 400px;
+}
+.links1{
+	margin-right: 60px;
+}.upper1{
+	padding-top: 30px;
+	padding-left: 150px;
+	
+}.lower{
+	padding-left: 370px; 
+}.lower li{
+	margin-left: 50px;
+}
+.back{
+	
+	background-image: url("https://www.brillicaservices.com/wp-content/uploads/2019/08/Assessments-Through-the-Learning-Process-6.26.18.jpg");
+	background-color: #0c070c;
+	height: 480px;
+	position: relative;
+	width: 100%;
+	padding-bottom:10px;
+}
+.new{
+	font-size: 30px;
+	color: white;
+}
+.run {
+ 	color: white;
+ 	font-weight: bold;
+  position: relative;
+  animation: mymove 3s infinite;
+  animation-direction: reverse;
+}
+
+.slide-left {
+  width:100%;
+  overflow:hidden;
+  color: white;
+  font-weight: bold;
+}
+div.slide-left p {
+  animation: slide-left 15s infinite;
+   transition-timing-function:cubic-bezier(0.2,0.5,0.3,1);
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: -100%;
+    width: 100%;
+  }
+}
+
+
+@keyframes mymove {
+  from {left: -250px;}
+  to {left: 180px;}
+}
+.search{
+	margin-top: 50px;
+	width:700px;
+	height: 60px;
+	border-radius: 20px;
+	border-style: none;
+	padding-left: 20px;
+}
+
+.headingback{
+	padding-top: 80px;
+}.brillica{
+	padding-right:220px;
+}
+	
+	.buttonIn { 
+		width: 300px; 
+		position: relative; 
+	} 
+	
+	input { 
+		margin: 0px; 
+		padding: 0px; 
+		width: 100%; 
+		outline: none; 
+		height: 30px; 
+		border-radius: 5px; 
+	} 
+	
+	.button { 
+		position: absolute; 
+		top: 0; 
+		border-radius: 5px; 
+		left: 640px; 
+		z-index: 2; 
+		border: none; 
+		top: 56px; 
+		height: 50px;
+		width: 50px; 
+		cursor: pointer; 
+		color: white; 
+		background-color: #F4C300; 
+		transform: translateX(2px); 
+	} 
+	
+	#banner_content {
+    text-align: left;
+    position: relative;
+    border-radius: 20px;
+    padding :3%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 740px;
+    max-height: 900px;
+}
+
+.enquirebtn{
+	border-radius: 20px;
+	color: black;
+	margin:0 auto;
+	font-size: 1.5rem;
+}
+.items1{
+	display: inline-block;
+	font-size: 17px;
+	padding-right: 10px;
+	padding-left: 5px;
+	border-left:2px dotted white ;
+}.navbar2class{
+	position: absolute;
+  top: 600px;
+  
+  width: 100%;
+	color: white;
+	background-image: linear-gradient(180deg, #003063 0%, #00172b 77%);
+	padding-top: 30px;
+	padding-bottom: 15px;
+	border-radius: 60px;
+	margin-left: 20px;
+	width: 1490px;
+}.card{
+	box-shadow:5px 10px 30px 10px grey;  
+}.para{
+	text-align: left;
+	
+	font-size: 20px;
+	line-height: 1.8;
+}
+.card2{
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 3;
+    transform: rotate(180deg);
+    bottom: -1px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url(https://www.brillicaservices.com/wp-content/uploads/2019/08/a0573054131_10.jpg);
+  background-color: #000000;
+  /* Add the blur effect */
+  
+  /* Full height */
+  height: 100%; 
+  opacity: 0.57;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    background-attachment: fixed;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: white; /* Fallback color */
+  background-color: white; /* Black w/opacity/see-through */
+  color: #1F4976;
+  font-weight: bold;
+  border: 3px solid blue;
+  position: absolute;
+  top: 420%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.bg-image1 {
+  /* The image used */
+  background-image: url("https://www.brillicaservices.com/wp-content/uploads/2019/08/cri-home-image.jpg");
+  background-color: #000000;
+  /* Add the blur effect */
+  
+  /* Full height */
+  height: 61%; 
+  
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text1 {
+ 
+  color: #1F4976;
+  font-weight: bold;
+ 
+  position: absolute;
+  top: 500%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.thirdbacki{
+margin:auto;
+}
+.btncolor{
+	background-color:#003063;
+	color: white;
+}
+
+
+	.navlist1 {
+		
+		padding:0;
+		padding-left: 120px;
+
+		margin:0;
+		color: white;
+	}
+
+		.navlist1 li {display: inline-block;
+			color: white;}
+
+	.header1link{ color: white; 
+		padding: 15px;
+		text-decoration: none;}
+
+	.icons 
+	{padding: 5px;
+	border: 1px solid white;
+	border-radius: 5px;}
+
+.phone, .envelope {border: none;}
+
+
+	.navlist1 .right {margin-left: 300px;
+			}
+.locationul{
+	margin-left:120px;
+}
+
+.locationul li {
+	display: inline-block;
+	text-decoration: none;
+	color: white !important;
+	padding-left: 10px;
+	padding-right: 20px;
+	border-right: 2px solid white;
+
+}
+.locationul2 li {
+	display: inline-block;
+	text-decoration: none;
+	color: white !important;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 2px;
+
+}
+.locationul3 li {
+	font-size:30px;
+	display: inline-block;
+	text-decoration: none;
+	color: white !important;
+	padding-left: 5px;
+	padding-right: 20px;
+	
+
+}
+.footer a{
+	color: white !important;
+}
+.stickitem1{
+	    background-color: #24C05F;
+    font-size: 30px;
+    text-align: center;
+    padding:0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+	 position: fixed;
+	top: 80%;
+	left: 2%;
+	color: white;
+	    
+    z-index: 30;
+    
+}
+.stickitem2{
+	    background-color: #03A0DB;
+    font-size: 30px;
+    text-align: center;
+    padding:0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+	 position: fixed;
+	top: 80%;
+	left: 6%;
+	color: white;
+	    
+    z-index: 30;
+    
+}
+.stickyicon{
+	position: fixed;
+	z-index: 30;
+	display: inline-block;
+}
+a, a:visited {
+    text-decoration:none;
+}
+
+@media only screen and (max-width: 800px) {
+  .right {
+    margin-left: -20px;
+    margin-top: 20px;
+  }
+}
+
